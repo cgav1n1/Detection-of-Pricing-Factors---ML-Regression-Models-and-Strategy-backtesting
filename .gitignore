@@ -1,0 +1,27 @@
+# Environnements virtuels
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Données (souvent volumineuses, à re-télécharger via data_loader.py)
+data/*.csv
+data/*.zip
+data/raw/
+data/processed/
+
+# Résultats volumineux (garder seulement les images clés si besoin)
+results/*.pkl
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
+
+# Jupyter
+*.log
